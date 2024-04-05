@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.Configuration_bgContainer {
+  font-family: 'Roboto';
+  background-color: #475569;
+  color: #fff;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+.Configuration_heading {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.Configuration_input {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width:768px){
+  .Configuration_bgContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+  }
+  .Configuration_heading{
+    font-size: 44px;
+  }
+  .Configuration_input{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .Configuration_label{
+    font-size: 25px;
+  }
+}

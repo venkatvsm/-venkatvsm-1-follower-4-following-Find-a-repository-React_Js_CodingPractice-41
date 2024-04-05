@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.FooterContainer {
+  width: 100%;
+  background-color: #cbd5e1;
+  padding: 2px;
+  text-align: center;
+}
+.Footer_heading {
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .FooterContainer {
+    padding: 20px;
+  }
+  .Footer_heading {
+    font-size: 55px;
+  }
+}
